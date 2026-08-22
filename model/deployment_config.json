@@ -9,3 +9,14 @@
     "Pneumonia"
   ]
 }
+{
+  "model_name": "ResNet50 Enhanced",
+  "target_size": 224,
+  "as_rgb": true,
+  "normalize": "resnet50",
+  "class_names": [
+    "Normal",
+    "Not Normal / No Lung Opacity",
+    "Pneumonia"
+  ]
+}
