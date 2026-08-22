@@ -1,0 +1,2 @@
+Place best_model.keras and deployment_config.json here after running the
+notebook (see README.md "Getting the model").
