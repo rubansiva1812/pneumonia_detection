@@ -119,7 +119,7 @@ def main():
 
         col1, col2 = st.columns(2)
         with col1:
-            st.image(display_img, caption="Uploaded X-ray", clamp=True, use_column_width=True)
+            st.image(display_img, caption="Uploaded X-ray", clamp=True, use_container_width=True)
 
         with st.spinner("Running inference..."):
             probs = model.predict(model_input, verbose=0)[0]
